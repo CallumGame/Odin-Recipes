@@ -1,14 +1,15 @@
-body { 
+* { 
 
     font-family: fantasy;
     background-color: rgb(212, 212, 212);
-    margin: 0px;
+    margin: 0;
    
 }
 
 
 h1 {
 
+    font-family: fantasy;
     font-weight: bolder;
     color: red;
     background-color: black ; border: 0%;
@@ -24,14 +25,18 @@ img {
     
     height: 500px;
     width: auto;
-    margin-left: 25px;
-
+    margin: 25px;
+    border-style: inset;
+    border-color: red;
+    border-width: 10px;
+    
 }
 
 
 
-p, h2 {
-margin-left: 25px;
+p, 
+h2 {
+margin: 25px;
 
 }
 
@@ -44,12 +49,14 @@ button:hover {
 
     width: auto;
     height: 45px;
-    background-color: grey;
+   background-color: rgb(76, 68, 115);
    
-    
-   
-    
 
 }
 
-    
+
+ol li button {
+
+    margin: 5px;
+
+}
